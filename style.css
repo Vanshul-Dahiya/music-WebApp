@@ -5,9 +5,11 @@ body {
   margin: 0;
   padding: 0;
 }
+
 nav {
   font-family: "Courier New", Courier, monospace;
 }
+
 nav ul {
   display: flex;
   align-items: center;
@@ -16,16 +18,46 @@ nav ul {
   background-color: black;
   color: wheat;
 }
+
 nav ul li {
   padding: 0 32px;
 }
+
 .brand img {
   width: 50px;
   height: 50px;
 }
+
 .brand {
   display: flex;
   align-items: center;
   font-weight: bolder;
   font-size: 1.4rem;
+}
+
+.container {
+  min-height: 75vh;
+}
+
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 14px;
+}
+.icons i {
+  cursor: pointer;
+}
+
+#progressBar {
+  width: 80vw;
 }
