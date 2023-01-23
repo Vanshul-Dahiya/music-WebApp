@@ -36,7 +36,21 @@ nav ul li {
 }
 
 .container {
-  min-height: 75vh;
+  min-height: 71vh;
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  /* to bring container to center */
+  display: flex;
+  width: 70%;
+  margin: 23px auto;
+
+  border-radius: 16px;
+  padding: 32px;
+
+  background-image: url("bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .bottom {
@@ -60,4 +74,16 @@ nav ul li {
 
 #progressBar {
   width: 80vw;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 70%;
+  color: black;
+  margin: 12px 0;
+}
+
+.songItem img {
 }
