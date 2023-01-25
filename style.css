@@ -74,16 +74,46 @@ nav ul li {
 
 #progressBar {
   width: 80vw;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 60px;
 }
 
 .songItem {
   height: 50px;
   display: flex;
   background-color: white;
-  width: 70%;
   color: black;
   margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .songItem img {
+  width: 40px;
+  margin: 0 23px 0;
+  border-radius: 50%;
+}
+
+.timestamp {
+  margin: 5px 23px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  top: 75px;
+  left: 10vw;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.55s ease-out;
 }
